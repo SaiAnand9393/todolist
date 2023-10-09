@@ -1,0 +1,44 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.para{
+  font-size: 30px;
+  font-weight: 300;
+ 
+}
+
+.todolist,
+.inputvalue{
+  display: grid;
+  grid-template-columns: 200px 150px 110px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.inputvalue{
+  margin-bottom: 10px;
+}
+
+.placeholder,
+.datebar{
+  padding: 10px;
+}
+
+.delete-button{
+  background-color: rgb(183, 0, 0);
+  color: white;
+  border:none;
+  padding: 12px;
+  font-weight: 600;
+ 
+}
+
+.add-button{
+  background-color: rgb(3, 136, 3);
+  color: white;
+  border:none;
+  padding: 12px;
+  font-weight: 600;
+}

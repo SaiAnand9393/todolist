@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>To do list</title>
+ <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+  <p class="para">To do list</p>
+  <div class="inputvalue">
+  <input  onkeydown="
+  keydown(event);
+  
+ " class="js-todo-name placeholder" type="text" 
+  placeholder="Todo name">
+  
+  <input class="js-todo-date datebar" type="date" onkeydown="
+  keydown(event);
+  
+ " >
+
+  <button class="add-button" onclick="
+  Addtodo();
+  " >Add</button>
+
+</div>
+
+  <div class="js-todo-list  todolist"></div>
+  
+</body>
+
+<script src="todolist.js"></script>
+
+</html>
